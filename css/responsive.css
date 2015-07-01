@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+@media (max-width: 1025px){
+	/**************************************************************************/
+	/*------------------------------   Global   ------------------------------*/							
+	/**************************************************************************/
+
+	.content {
+		width: 100%;
+		height: auto;
+		padding: 30px;
+		box-sizing:border-box;
+		-moz-box-sizing:border-box;
+	}
+
+	/**************************************************************************/
+	/*--------------------------   Header/Footer   ---------------------------*/							
+	/**************************************************************************/
+	header,footer {
+		height:auto;
+		text-align:center;
+	}
+
+	img.logo {
+		width:71px;
+		height:76px;
+		display:inline-block;
+		float:none;
+		margin:10px 0 0 0;
+	}
+
+	h1 {
+		font-size:22px;
+		float:none;
+		margin:20px 0 0 0;
+		font-weight: 700;
+	}
+
+	a {
+		float:none;
+		display: inline-block;
+		position:relative;
+		color:#000;
+		text-decoration:none;
+		margin:10px 20px 0 20px;
+	}
+
+	a.phone {
+		right:0;
+	}	
+
+
+	/**************************************************************************/
+	/*------------------------------   Intro   ---------------------------*/							
+	/**************************************************************************/
+	
+	#intro {
+		padding:0;
+		background-position: left center;
+	}
+
+	#intro h2 {
+		font-size:36px;
+	}
+
+	#intro ul {
+		font-size:26px;
+		margin:45px 0 0 0;
+	}
+
+	#intro ul li {
+		margin:0 0 12px 0;
+		background-size: auto 80% !important;
+	}
+
+	br {
+		display:none;
+	}
+
+	/**************************************************************************/
+	/*----------------------------   Specialties   ---------------------------*/							
+	/**************************************************************************/
+
+
+	#specialties {
+		padding: 0;
+	}
+
+	#specialties .specialty {
+		width:100%;
+		margin:30px 0 0 0;
+		padding:0 !important;
+	}
+
+
+	#specialties .specialty p {
+		font-size:18px;
+		line-height:24px;
+	}	
+
+	/**************************************************************************/
+	/*-----------------------------   Conclusion   ---------------------------*/							
+	/**************************************************************************/
+	
+	#conclusion {
+		background-position: top left;
+		height:200px;
+	}
+}
+
+@media (max-width: 650px){
+	#about ul li {
+		margin: 0!important;
+		width: 50%;
+	}
+	
+	#about ul li:nth-child(1) {
+		padding: 0 5px 0 0;
+	}
+	
+	#about ul li:nth-child(2) {
+		padding: 0 0 0 5px;
+	}
+	
+	#about ul li:nth-child(3) {
+		display: none;
+	}
+	
+	#about ul li img {
+		max-width: 300px;
+	}
+}
+
+@media (max-width: 650px) and (orientation: portrait){
+	#about ul li {
+		margin: 0!important;
+		width: 100%;
+		float: none;
+		padding: 0!important;
+	}
+}
