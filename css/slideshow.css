@@ -8,7 +8,9 @@
     60%  { background: green; }
     70%  { background: teal; }
     80%  { background: blue; }
-    100% { background: purple; }
+    90%  { background: blueviolet; }
+    95%  { background: purple; }
+    100% { background: mediumvioletred; }
 }
 @-moz-keyframes change-color {
     0%   { background: red; }
@@ -20,7 +22,9 @@
     60%  { background: green; }
     70%  { background: teal; }
     80%  { background: blue; }
-    100% { background: purple; }
+    90%  { background: blueviolet; }
+    95%  { background: purple; }
+    100% { background: mediumvioletred; }
 }
 @-o-keyframes change-color {
     0%   { background: red; }
@@ -32,7 +36,9 @@
     60%  { background: green; }
     70%  { background: teal; }
     80%  { background: blue; }
-    100% { background: purple; }
+    90%  { background: blueviolet; }
+    95%  { background: purple; }
+    100% { background: mediumvioletred; }
 }
 @keyframes change-color {
     0%   { background: red; }
@@ -44,7 +50,9 @@
     60%  { background: green; }
     70%  { background: teal; }
     80%  { background: blue; }
-    100% { background: purple; }
+    90%  { background: blueviolet; }
+    95%  { background: purple; }
+    100% { background: mediumvioletred; }
 }
 
 body {
