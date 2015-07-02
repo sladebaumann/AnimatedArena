@@ -8,16 +8,15 @@
 
     window.animator = {
         init: function () {
-            animator.indexCounter();
+            $(".mainPage").fadeIn(5000);
+            window.setTimeout(animator.indexCounter(), 5000);
         },
 
         indexCounter: function () {
-            window.setTimeout(timerForCountdown, 5000); //1000 will  run it every 1 second
-
-            function timerForCountdown()
-            {
+            $(".mainPage").click(function(){
                 document.location.href = 'http://animated-arena.mipropia.com/numbers.html';
-            }
+            });
+
         }
     };
 

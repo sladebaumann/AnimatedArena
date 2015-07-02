@@ -7,6 +7,7 @@
 
     window.animator = {
         init: function () {
+            $(".mainPage").fadeIn(10000);
             animator.getReadyTimer();
         },
 

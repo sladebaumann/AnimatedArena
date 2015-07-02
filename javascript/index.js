@@ -12,7 +12,8 @@
         },
 
         indexCounter: function () {
-            window.setTimeout(timerForCountdown, 5000); //1000 will  run it every 1 second
+            window.setTimeout(timerForCountdown, 5000);
+            $(".mainPage").fadeOut(5000);
 
             function timerForCountdown()
             {

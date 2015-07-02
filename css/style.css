@@ -79,3 +79,7 @@ header {
     text-shadow: 0 0 3px #000;
     text-transform: uppercase;
 }
+
+.noSee {
+    display:none;
+}
