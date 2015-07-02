@@ -13,15 +13,24 @@
         },
 
         indexCounter: function () {
-            $(".mainPage").click(function(){
-                window.setTimeout(switchPage, 2000);
+            /*$(".mainPage").click(function(){
+                window.setTimeout(animator.switchPage, 2000);
                 $(".mainPage").fadeOut(2000);
+            });*/
 
-                function switchPage () {
-                    document.location.href = 'http://animated-arena.mipropia.com/numbers.html';
-                }
+            $('.mainPage').bind("touchstart", function(e) {
+                window.setTimeout(animator.switchPage, 2000);
+                $(".mainPage").fadeOut(2000);
             });
 
+            /*$(".mainPage").on("tap",function(){
+                window.setTimeout(animator.switchPage, 2000);
+                $(".mainPage").fadeOut(2000);
+            });*/
+        },
+
+        switchPage: function () {
+            document.location.href = 'http://animated-arena.mipropia.com/numbers.html';
         }
     };
 

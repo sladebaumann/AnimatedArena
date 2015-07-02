@@ -60,12 +60,12 @@ header {
 
 .mainPage p {
     font-family: 'Open Sans 700', sans-serif;
-    font-weight:bold;
-    font-size:50px;
-    /*line-height:50px;*/
-    text-align:center;
+    font-weight: bold;
+    font-size: 40px;
+    /* line-height: 50px; */
+    text-align: center;
     width: 100%;
-    padding:50px 0 50px 0;
+    padding: 50px 0 50px 0;
     text-shadow: 0 0 3px #000;
     text-transform: uppercase;
 }
