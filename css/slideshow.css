@@ -1,3 +1,7 @@
+.noSee {
+    display:none;
+}
+
 @-webkit-keyframes change-color {
     0%   { background: red; }
     10%  { background: orangered; }
