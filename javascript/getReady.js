@@ -8,13 +8,18 @@
 
     window.animator = {
         init: function () {
-            $(".mainPage").fadeIn(5000);
-            window.setTimeout(animator.indexCounter(), 5000);
+            $(".mainPage").fadeIn(2000);
+            window.setTimeout(animator.indexCounter(), 2000);
         },
 
         indexCounter: function () {
             $(".mainPage").click(function(){
-                document.location.href = 'http://animated-arena.mipropia.com/numbers.html';
+                window.setTimeout(switchPage, 2000);
+                $(".mainPage").fadeOut(2000);
+
+                function switchPage () {
+                    document.location.href = 'http://animated-arena.mipropia.com/numbers.html';
+                }
             });
 
         }
